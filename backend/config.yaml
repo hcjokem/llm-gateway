@@ -1,0 +1,14 @@
+# LLM Gateway 配置文件
+
+mode: development
+port: 3000
+log_level: info
+jwt_secret: your-super-secret-jwt-key-change-this-in-production
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  name: llm_gateway
+  sslmode: disable
